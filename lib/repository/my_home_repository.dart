@@ -28,6 +28,7 @@ class MyHomeRepositoryImpl implements MyHomeRepository {
   Future<ResultModel> incrementCounter() {
     _model.counter = _model.counter + 1;
     // Future.valueとは？
+    //値をFutureにするコンストラクター
     return Future.value(_model);
   }
 }

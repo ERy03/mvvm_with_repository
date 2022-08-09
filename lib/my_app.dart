@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mvvm_with_repository/my_home_page.dart';
+import 'package:mvvm_with_repository/view/my_home_page.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'MVVM with repository'),
+      home: MyHomePage(title: 'MVVM with repository'),
     );
   }
 }
